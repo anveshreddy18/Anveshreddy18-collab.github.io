@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>chessboard</title>
+	<link rel="stylesheet" type="text/css" href="chessboard.css">
+</head>
+<body>
+	<div class="a"><p>haha this is div 1</p></div>
+	<div id="b"><p>haha this is div 2</p></div>
+	<h1 id="test2">Didn't change</h1>
+	
+<p id="haha">The height and width of the browser will be displayed here</p>
+<button onclick="myclick()">click me to get height and width of the window</button>
+<a href="tada" id="aa" style="display: block;">this is a link</a>
+<table>
+	<caption>Chess board</caption>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>	
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+</table>
+<script type="text/javascript">
+	function myclick() {
+		// body...
+		var w=window.innerWidth;
+		var h=window.innnerHeight;
+		document.getElementById("haha").innerHTML="width:"+w+"<br>Height:"+h;
+	}
+	var anvesh=document.getElementById("aa");
+	anvesh.innerHTML="thank you";
+	anvesh.href="https://codeforces.com/contest/1388";
+	anvesh.style.background="red";
+	document.write(anvesh);
+</script>
+</body>
+</html>
