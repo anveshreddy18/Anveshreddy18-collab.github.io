@@ -1,0 +1,56 @@
+
+		.main1{
+			height:80vh;
+			width:70%;
+			margin:0 auto;
+		
+			position:absolute;
+			top: 10%;
+			left:15%;
+			border-radius: 3%;
+		}
+		.main2{
+			height: 90%;
+			width:100%;
+			background-color:rgba(20, 18, 13,0.2);
+		}
+		img{
+			height:100%;
+			width:88%;
+			position: relative;
+			float: left;
+		}
+		.previous,.next{
+			display: inline-block;
+			width:6%;
+			height:10%;
+			line-height:230%;
+			text-align: center;
+		/*	text-transform:uppercase;*/
+			color:white;
+			background-color:rgba(20, 18, 13,0.5);
+			float: left;
+			position:relative;
+			top: 45%;
+			font-size: 150%;
+		}
+		.previous:hover,.next:hover{
+			background-color:rgba(20, 18, 13,0.1);
+			color:black;
+			cursor:pointer;
+		}
+		.circles{
+			height:10%;
+			background-color:lightgray;
+		}
+		.bubble{
+			display: inline-block;
+			height: 35%;
+			width: 2%;
+			border-radius: 50%;
+			background-color: white;
+			position: relative;
+			top:36%;
+			left: 38%;
+			margin-left: 3%;
+		}
