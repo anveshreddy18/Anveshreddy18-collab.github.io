@@ -1,2 +1,2 @@
-# Anveshreddy18-collab.github.io
-Personal Portfolio
+# Anveshreddy18-collab.github.io/sub parts/carousel.html
+Portfolio
