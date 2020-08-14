@@ -1,5 +1,5 @@
 var sum=0;
-var image=["https://besthqwallpapers.com/img/original/84373/captain-america-4k-superheroes-fan-art-captain-america-civil-war.jpg",
+var image=["https://wallpapercave.com/wp/wp1808940.jpg",
 "https://i.pinimg.com/originals/f0/04/bb/f004bbb91caea47f1f4681f01000427d.jpg",
 "https://cdn1.thr.com/sites/default/files/2015/12/got-iconic-images-18_2.jpg",
 "https://images3.alphacoders.com/795/thumb-1920-795561.jpg"];
