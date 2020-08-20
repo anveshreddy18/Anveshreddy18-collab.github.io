@@ -1,0 +1,223 @@
+	/* Mobile first */
+#home{
+	background-color: #121212;
+	width: 100vw;
+	height:100vh;
+}
+/*	button{
+		display: inline-block;
+		position: absolute;
+		top: 1%;
+		right: 1%;
+		width: 20%;
+		height: 5%;
+	}
+*/
+#home .outer{
+	overflow: hidden;
+}
+#home .header{
+	background-color:#3d7387;
+	background-color: black;
+	width:40vw;
+	height:92%;
+	position: fixed;
+	top: 8%;
+	left: -40vw;
+	z-index: 999;
+/*	display: none;	*/
+	border-radius: 1%;
+	-webkit-transition: -webkit-transform 0.7s;
+	transition: -webkit-transform 0.7s;
+	-o-transition: transform 0.7s;
+	transition: transform 0.7s;
+	transition: transform 0.7s, -webkit-transform 0.7s;
+	-webkit-transition-timing-function: ease-out;
+	     -o-transition-timing-function: ease-out;
+	        transition-timing-function: ease-out;
+}
+a{
+/*	background-color: blue;
+	margin-left: 2%;*/
+	text-decoration: none;
+	color: black;
+	color: white;
+	font-size: 1.4em;
+	display:block;
+}
+a:hover{
+	color:#0d42e0;
+}
+a:focus{
+	color:#0d42e0;
+	color: #e8e413;
+}
+.freelancer{
+	margin-top: 10%;
+	width: 100%;
+}
+.freelancer-img{
+	margin-top: 30%;
+	width: 90%;
+	height: 30%;
+	margin-left: 5%;
+}
+/* STYLING MOBILE NAVIGATION */
+	li{
+		border-bottom: 1px solid black;
+		padding-left: 5%;
+		padding-bottom: 12%;
+		padding-top: 12%;
+	}
+	.last{
+		border-bottom: none;
+
+
+	}
+/* CSS of Hamburger Button */
+	.container {
+  		position: fixed;
+  		top:1%;
+  		left: 1%;
+  		z-index: 999;
+  		cursor: pointer;
+	}
+
+	.bar1, .bar2, .bar3 {
+	  width: 35px;
+	  height: 5px;
+	  background-color:blue;
+	  margin: 6px 0;
+	  -webkit-transition: 0.4s;
+	  -o-transition: 0.4s;
+	  transition: 0.4s;
+	}
+
+	.change .bar1 {
+  		-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  		-ms-transform: rotate(-45deg) translate(-9px, 6px);
+  		    transform: rotate(-45deg) translate(-9px, 6px);
+	}
+
+	.change .bar2 {opacity: 0;}
+
+	.change .bar3 {
+  		-webkit-transform: rotate(45deg) translate(-8px, -8px);
+  		-ms-transform: rotate(45deg) translate(-8px, -8px);
+  		    transform: rotate(45deg) translate(-8px, -8px);
+	}
+/* End of CSS of Hamburger Button */
+
+/* END OF STYLING THE MOBILE NAVIGATION */
+#home .name{
+	height:100vh;
+}
+.name .para{
+	width: 100%;
+	height:50%;
+/*	background-color: yellow;	*/
+	font-size: 200%;
+	text-align: center;
+	color: white;
+}
+.para p{
+	position: absolute;
+	top:25%;
+	left: 15%;
+	right: 15%
+}
+.para span{
+	color: #10a357;
+	color: blue;
+}
+.name .img{
+	width: 100%;
+	height: 50%;
+/*	background-color: blue;	*/
+}
+.img .systems{
+	width:80%;
+	height: 30%;
+	margin-top: 5%;
+	position: absolute;
+	left: 8%;
+	right: 5%;
+	display: block;
+}
+.img .scroll{
+	width:100px;
+	height: 10%;
+	display: block;
+	position: absolute;
+	top: 90%;
+	left: 40%;
+}
+@media screen and (min-width: 740px)
+{
+	/* Change the navigation to top  */
+	.freelancer{
+		display: none;
+	}
+	.container{
+		display: none;
+	}
+	#home .outer{
+		overflow: initial;
+	}
+	#home .header{
+		background-color:rgba(32, 161, 152);
+		background-color: #121212;
+		height: 7%;
+		width:100vw;
+		display: block;
+		left: 0%;
+		top: 0%;
+		border-radius: 0%;
+	}
+	a{
+/*	background-color: blue;
+	margin-left: 2%;*/
+		text-decoration: none;
+		color: white;
+		font-size: 1.5em;
+		display:inline-block;
+	}
+	a:hover{
+		color:rgba(159, 29, 179);
+		color: blue;
+	}
+	ul{
+		list-style-type: none;
+		width:100%;
+	}
+	li{
+		border-bottom:none;
+		padding: 0%;
+		padding-left: 0%;
+		text-align: center;
+		width:20%;
+		display:inline-block;
+		padding-top:1%;
+		padding-bottom: 1%;
+		margin-left:3%;
+		margin-right: 3%;
+	/*	padding-right: 5%;
+		background-color: red;*/
+	}
+	.low{
+		width:10%;
+	}
+	.name .para{
+		font-size: 290%;
+	}
+	.img .scroll{
+		width:120px;
+		left: 43%;
+	}
+}
+@media screen and (min-width: 1000px)
+{
+	.img .systems{
+		margin-top: 3%;
+	}
+}
