@@ -1,4 +1,11 @@
 	/* CSS of #about	*/
+
+.low:hover{
+	text-shadow: 0 0 20px  #00bcd4;
+}	
+#ab:hover{
+	text-shadow: 0 0 30px  #64a6af;
+}
 #about{
 	width:100vw;
 	height: 100vh;
@@ -39,6 +46,12 @@
     margin-top:15%; 
 	margin-top: 3%;  */
 }
+.profile-details:hover{
+	text-shadow: 0 0 5px  #8c9496;
+
+	transition: 1s;
+
+}
 .profile-details p{
 	color: white;
 	display: block;
@@ -62,10 +75,13 @@
 	padding: 12px;
 	background: -webkit-linear-gradient(top, #7aff65 0%, #117e00 100%);
 	border-radius: 8%;
+	/* text-shadow: 0 0 30px  #00bcd4; */
 }
 .buttonn:hover{
 	background: -webkit-linear-gradient(bottom, #7aff65 0%, #117e00 100%);
 	box-shadow: 2px 2px 3px grey;
+	box-shadow: 0 0 30px  #00bcd4;
+	transition: 1s;
 }
 @media screen and (min-width: 520px)
 {
