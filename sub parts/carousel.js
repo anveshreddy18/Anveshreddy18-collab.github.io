@@ -33,3 +33,19 @@ function spanclick(dot)
 	gotonext(dot);
 	// include a focuus when the person is clicking on the link
 }
+function closer()
+{
+//  var b=document.getElementsByTagName('button')[0];
+  var a=window.innerWidth;
+  if(a<=739)
+  {
+    var z=document.getElementsByClassName('low')[0];
+    if(sum1%2==1)
+    {
+    //  b.style.background="red";
+      sum1++;
+      z.style.transform="translate(-45vw,0px)";
+      toggler.classList.toggle("change");
+    }
+  }
+}
