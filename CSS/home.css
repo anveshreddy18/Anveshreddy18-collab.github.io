@@ -254,6 +254,16 @@ a:focus{
 		left: 46%;
 	}
 }
+
+.navlist-icon{
+	 float: left;
+	 margin-right: 0.5rem;
+}
+.icn{
+	color: white;
+	filter: invert(100%);
+	height: 30px;
+}
 @media screen and (max-width: 1000px)
 {
 	.img .systems{
