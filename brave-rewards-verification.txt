@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: anveshreddy18-collab.github.io
-Token: a60524b2481ff47eb5b0f851b163d8a2b58d677db9a7f66d8fb27f9c50a26925
