@@ -171,3 +171,23 @@ a:hover{
 		change the navigation bar.....
 	*/
 }
+
+
+.sncss{
+	background-color: #121212;
+	height: 100vh;
+	width: 100%;
+}
+
+
+/*	CSS of #about	*/
+#blackFe{
+	background-color: #121212;
+	height: 100vh;
+	width: 100%;
+}
+
+#blackFerrous{
+	background-color: #7d1bbf;
+	width:100%;
+}
