@@ -31,6 +31,7 @@
 #about h1{
 	color: white;
 	font-size: 150%;
+	font-family: "Alfa-Slab-One", bold;
 	text-align: center;
 /*	display: block;
 	position: absolute;
@@ -42,6 +43,7 @@
 .profile-details{
 	width: 100%;
 	height: 50%;
+	font-family: "Barlow", condensed;
 /*	background-color: green;  
     margin-top:15%; 
 	margin-top: 3%;  */
@@ -59,7 +61,7 @@
 	padding-left: 6%;
 	padding-right: 6%;
 	padding-top: 5%;
-	font-family: 'Arima Madurai', cursive;
+	font-family: 'Barlow', condensed;
 	font-size: 120%;
 	line-height: 150%;
 }
