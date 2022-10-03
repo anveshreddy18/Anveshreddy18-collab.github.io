@@ -47,6 +47,7 @@ html::-webkit-scrollbar-thumb
 }
 .heading-1{
 	display: none;
+	font-family: "Barlow-Condensed", black;
 }
 #home .outer{
 	overflow: hidden;
@@ -154,7 +155,7 @@ a:focus{
 	font-size: 200%;
 	text-align: center;
 	color: white;
-	font-family: 'Lobster';
+	font-family: 'Barlow', condensed;
 }
 .para p{
 	position: absolute;
@@ -162,7 +163,7 @@ a:focus{
     left: 6%;
     text-align: left;
     right: 42%;
-    font-family: 'Glory', sans-serif;
+    font-family: 'Alfa-Slab-One', bold;
     line-height: 120%;
 }
 .para span{
@@ -245,9 +246,11 @@ a:focus{
 	}
 	.low{
 		width:10%;
+		font-family: "Barlow", condensed;
 	}
 	.name .para{
 		font-size: 290%;
+		font-family: "Barlow", condensed;
 	}
 	.img .scroll{
 		width:120px;
@@ -283,7 +286,7 @@ a:focus{
     left: 20%;
     text-align: center;
     right: 42%;
-    font-family: 'Glory', sans-serif;
+    font-family: 'Barlow', condensed;
     line-height: 120%;
 	font-size: 2.5rem;
 	}
@@ -292,4 +295,8 @@ a:focus{
 		width:120px;
 		left: 34.1%;
 	}
+}
+
+.profile-details{
+	font-family: "Barlow", condensed;
 }
